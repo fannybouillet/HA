@@ -1,5 +1,9 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
+import 'home_page_row.dart';
+//TODO : Générer une liste de refuges
 void main() {
   runApp(MyApp());
 }
@@ -8,25 +12,34 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        appBar: AppBar(
+            title:Text('Happy Animal')),
         body: SafeArea(
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: <Widget>[
-              Container(
-                margin: EdgeInsets.all(15.0),
-                height: 100,
-                color: Colors.blue,
-                child: Text('container1'),
-              ),
-              Container(
-                margin: EdgeInsets.all(15.0),
-                height: 100,
-                color: Colors.red,
-                child: Text('container2'),
-              )
-
-            ],
+          child: SingleChildScrollView(
+            physics: BouncingScrollPhysics(),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: <Widget>[
+                Column(
+                  children: [
+                    Text('Regarder la vidéo pour aider un animal'),
+                    Image.network(
+                        'https://www.sortiraparis.com/images/80/62403/420603-paris-animal-show-2019-a-la-porte-de-versailles.jpg',
+                        width: 200,
+                    ),
+                    Text('Blabla')
+                  ],
+                ),
+                Text('Les refuges autour de moi'),
+              HomePageRow(buttonText: 'Voir tous les refuges',
+                image:  Image.network('https://img-19.ccm2.net/8vUCl8TXZfwTt7zAOkBkuDRHiT8=/1240x/smart/b829396acc244fd484c5ddcdcb2b08f3/ccmcms-commentcamarche/20494859.jpg',
+                  fit:BoxFit.cover,
+                  width: 200,
+                ),
+                name: 'The XXX',
+                subtitle: 'Manque X repas',),
+              ],
+            ),
           ),
         ),
         ),
