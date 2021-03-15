@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
               children: <Widget>[
                 Column(
                   children: [
-                    Text('Regarder la vidéo pour aider un animal'),
+                    Text('Regarder une vidéo pour aider'),
                     Image.network(
                         'https://www.sortiraparis.com/images/80/62403/420603-paris-animal-show-2019-a-la-porte-de-versailles.jpg',
                         width: 200,
