@@ -6,8 +6,9 @@ class HomePageRow extends StatelessWidget {
   final String name;
   final Image image;
   final String buttonText;
+  final Function buttonAction;
 
-  const HomePageRow({ this.name, this.image, this.buttonText,
+  const HomePageRow({ this.name, this.image, this.buttonText, this.buttonAction,
 
   });
 
@@ -31,7 +32,7 @@ class HomePageRow extends StatelessWidget {
           ),
           MaterialButton(
               child: Text(buttonText),
-              onPressed: null)
+              onPressed: () { buttonAction(); })
         ]
     );
   }

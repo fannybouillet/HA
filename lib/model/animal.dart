@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:happyanimal_app/shelter.dart';
+import 'package:happyanimal_app/model/shelter.dart';
 
 class Animal{
   String nameAnimal;
