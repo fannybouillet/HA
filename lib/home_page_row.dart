@@ -3,13 +3,11 @@
 import 'package:flutter/material.dart';
 
 class HomePageRow extends StatelessWidget {
-  final String subtitle;
   final String name;
   final Image image;
   final String buttonText;
 
-  const HomePageRow({
-    this.subtitle, this.name, this.image, this.buttonText,
+  const HomePageRow({ this.name, this.image, this.buttonText,
 
   });
 
@@ -25,8 +23,7 @@ class HomePageRow extends StatelessWidget {
                   Column(
                     children: [
                       Text(name),
-                      image,
-                      Text(subtitle)
+                      image
                     ],
                   )
                 ]

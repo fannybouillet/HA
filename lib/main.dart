@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
                   fit:BoxFit.cover,
                   width: 200,
                 ),
-                name: 'The XXX',),
+                name: 'The XXX'),
               ],
             ),
           ),
