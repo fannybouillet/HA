@@ -9,6 +9,13 @@ class Shelter{
 
 
 
+//fonction qui crée un refuge
+Shelter({this.nameShelter,this.description, this.image, this.isCertified});
+
+
+//fonction qui affiche un refuge
+
+
 
 
 }

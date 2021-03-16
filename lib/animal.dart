@@ -3,15 +3,17 @@ import 'package:happyanimal_app/shelter.dart';
 
 class Animal{
   String nameAnimal;
-  int age;
   String espece;
-  String race;
   Image image;
   String color;
   String description;
-  bool isCertified;
-  List animals;
   Shelter shelter;
+
+
+//fonction qui crée un animal
+  Animal({this.nameAnimal,this.color, this.espece, this.description,this.image, this.shelter});
+
+//fonction qui affiche un animal
 
 
 
