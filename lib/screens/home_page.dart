@@ -1,6 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:happyanimal_app/ui_elements/home_page_row.dart';
+import 'package:happyanimal_app/animals_list.dart';
+import 'package:happyanimal_app/shelters_list.dart';
+import 'package:happyanimal_app/ui_elements/shelter_item.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -8,10 +10,11 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  final _firestore = FirebaseFirestore.instance;
+   final _firestore = FirebaseFirestore.instance;
 
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
       // barre d'application
       floatingActionButton: FloatingActionButton(
@@ -40,14 +43,14 @@ class _HomePageState extends State<HomePage> {
               ),
               //Les refuges
               Text('Les refuges qui ont besoin de moi'),
-              HomePageRow(buttonText: 'Voir tous les refuges',
-                image:  Image.network('https://img-19.ccm2.net/8vUCl8TXZfwTt7zAOkBkuDRHiT8=/1240x/smart/b829396acc244fd484c5ddcdcb2b08f3/ccmcms-commentcamarche/20494859.jpg',
-                  fit:BoxFit.cover,
-                  width: 200,
-                ),
-                name: 'The XXX',
-                buttonAction: () { Navigator.pushNamed(context, '/donation'); }
-              ),
+              Container(
+                  height: 300,
+                  width: MediaQuery.of(context).size.width,
+                  child: SheltersList()),
+              Container(
+                  height: 300,
+                  width: MediaQuery.of(context).size.width,
+                  child: AnimalsList(collectionName: 'animals'))
             ],
           ),
         ),
@@ -55,3 +58,8 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
+
+
+/**
+
+    **/
