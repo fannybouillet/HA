@@ -7,8 +7,6 @@ class Shelter{
   bool isCertified;
   List animals;
 
-
-
 //fonction qui crée un refuge
 Shelter({this.nameShelter,this.description, this.image, this.isCertified});
 

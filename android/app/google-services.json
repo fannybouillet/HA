@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "461785850893",
+    "project_id": "happyanimal-a65c8",
+    "storage_bucket": "happyanimal-a65c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461785850893:android:0ebda9be7225590047e144",
+        "android_client_info": {
+          "package_name": "com.HA.happyanimal.happyanimal_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461785850893-d1okfpk5ilhhm0dl18rodrc8nvvccn64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk7R1k7h2r8gCyiPaMfCNgBoCt_J3ut_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461785850893-d1okfpk5ilhhm0dl18rodrc8nvvccn64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

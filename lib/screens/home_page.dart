@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:happyanimal_app/ui_elements/home_page_row.dart';
 
@@ -7,12 +8,16 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  final _firestore = FirebaseFirestore.instance;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       // barre d'application
       floatingActionButton: FloatingActionButton(
-        onPressed: () => Navigator.pushNamed(context, "/donation"),
+        onPressed: () {
+
+        },
       ),
       appBar: AppBar(
           title:Text('Happy Animal')),
