@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:happyanimal_app/screens/shelter_detail.dart';
+import 'package:happyanimal_app/theme.dart';
 
 import 'screens/donation.dart';
 import 'screens/home_page.dart';
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: happyAnimalsThemeData,
       routes: {
         "/home" : (context) => HomePage(),
         "/donation" : (context) => DonationPage(),

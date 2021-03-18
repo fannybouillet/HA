@@ -151,13 +151,13 @@ class _DonationPageState extends State<DonationPage> {
                                   ? MaterialButton(
                                       onPressed: () {},
                                       child: Text('Paypal'),
-                                      color: Colors.blue)
+                                      color: Theme.of(context).primaryColor)
                                   : SizedBox(),
                               radioSelectedValue == paymentType.unique
                                   ? MaterialButton(
                                       onPressed: () {},
                                       child: Text('Carte bancaire'),
-                                      color: Colors.blue)
+                                      color: Theme.of(context).primaryColor)
                                   : SizedBox(),
                             ],
                           ),
@@ -168,7 +168,7 @@ class _DonationPageState extends State<DonationPage> {
                                     ? MaterialButton(
                                         onPressed: () {},
                                         child: Text('Prélèvement SEPA'),
-                                        color: Colors.amber)
+                                        color: Theme.of(context).primaryColor)
                                     : SizedBox()
                               ]),
                         ]),
