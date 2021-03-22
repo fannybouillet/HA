@@ -18,7 +18,7 @@ class ShelterDetail extends StatelessWidget {
       builder: (BuildContext context, AsyncSnapshot<DocumentSnapshot> snapshot) {
 
         if (snapshot.hasError) {
-          return Text("Something went wrong");
+          return Text("Une erreur s'est produite");
         }
 
         if (snapshot.connectionState == ConnectionState.done) {

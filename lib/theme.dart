@@ -25,12 +25,5 @@ const kHaYellowLight = Color(0xFFffffcd);
 const kHaBgYellow = Color(0xffFFFEF9);
 const kHaBlueLight = Color(0xffacd2d0);
 const kHaPink = Color(0xffdd595d);
-//Todo: Mettre les autres couleurs
-/**
-    bleu foncé #84b0aa
-    jaune clair #ffffcd
-    jaune foncé #ffe782
-    bleu clair #acd2d0
-    Marron #5b2018
-
-    **/
+const kHaBlueDark = Color(0xff84b0aa);
+const kHaYellowDark = Color(0xffffe782);

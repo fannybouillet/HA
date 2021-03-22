@@ -40,13 +40,13 @@ class AnimalsList extends StatelessWidget {
                         fit: BoxFit.cover,),
                       name: e.get('name'),
                       buttonAction: () => Navigator.pushNamed(context, '/donation'),
+                      secondaryText: e.get('age'),
                     );
                   }).toList()
               );
             }
           }
-          //Todo: Message si il y a une erreur
-          return Text("Hello");
+          return Text("Une erreur est survenue");
 
       },
     );

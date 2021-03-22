@@ -13,6 +13,8 @@ class DonationPage extends StatefulWidget {
 class _DonationPageState extends State<DonationPage> {
   //Variables pour le prix de revient du donateur
   double trueCost = 0;
+  // variable dropdown
+  String dropdownValue = 'One';
 
   // radio button sélectionné de base
   paymentType radioSelectedValue = paymentType.unique;
@@ -73,6 +75,13 @@ class _DonationPageState extends State<DonationPage> {
                           SizedBox(
                             height: 18,
                           ),
+                          //TODO : dropdown pour le choix du don département/HA/refuges
+
+
+
+                          //TODO : en fonction du choix d'au dessus un dropdown apparait avec la liste de la bdd
+
+
                           //montant des dons. On ne peut entrer que des chiffres
                           TextFormField(
                             keyboardType: TextInputType.number,
@@ -174,6 +183,7 @@ class _DonationPageState extends State<DonationPage> {
                         ]),
                       ),
                     ),
+                    //TODO : écrire dans la bdd don toutes les informations saisies
                   ],
                 ),
                 //récurrence de paiement. Selon le radio coché les boutons sont disable ou non
