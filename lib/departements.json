@@ -1,0 +1,983 @@
+[
+    {
+      "code": "01",
+      "type": "DPT",
+      "nom": "Ain",
+      "chefLieu": "Bourg-en-Bresse",
+      "region": "Auvergne-Rhône-Alpes",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": "02",
+      "type": "DPT",
+      "nom": "Aisne",
+      "chefLieu": "Laon",
+      "region": "Hauts-de-France",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": "03",
+      "type": "DPT",
+      "nom": "Allier",
+      "chefLieu": "Moulins",
+      "region": "Auvergne-Rhône-Alpes",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": "04",
+      "type": "DPT",
+      "nom": "Alpes-de-Haute-Provence",
+      "chefLieu": "Digne",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": "05",
+      "type": "DPT",
+      "nom": "Hautes-Alpes",
+      "chefLieu": "Gap",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": "06",
+      "type": "DPT",
+      "nom": "Alpes-Maritimes",
+      "chefLieu": "Nice",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": "07",
+      "type": "DPT",
+      "nom": "Ardèche",
+      "chefLieu": "Privas",
+      "region": "Auvergne-Rhône-Alpes",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": "08",
+      "type": "DPT",
+      "nom": "Ardennes",
+      "chefLieu": "Charleville-Mézières",
+      "region": "Grand Est",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": "09",
+      "type": "DPT",
+      "nom": "Ariège",
+      "chefLieu": "Foix",
+      "region": "Occitanie",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 10,
+      "type": "DPT",
+      "nom": "Aube",
+      "chefLieu": "Troyes",
+      "region": "Grand Est",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 11,
+      "type": "DPT",
+      "nom": "Aude",
+      "chefLieu": "Carcassonne",
+      "region": "Occitanie",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 12,
+      "type": "DPT",
+      "nom": "Aveyron",
+      "chefLieu": "Rodez",
+      "region": "Occitanie",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 13,
+      "type": "DPT",
+      "nom": "Bouches-du-Rhône",
+      "chefLieu": "Marseille",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 14,
+      "type": "DPT",
+      "nom": "Calvados",
+      "chefLieu": "Caen",
+      "region": "Normandie",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 15,
+      "type": "DPT",
+      "nom": "Cantal",
+      "chefLieu": "Aurillac",
+      "region": "Auvergne-Rhône-Alpes",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 16,
+      "type": "DPT",
+      "nom": "Charente",
+      "chefLieu": "Angoulême",
+      "region": "Nouvelle-Aquitaine",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 17,
+      "type": "DPT",
+      "nom": "Charente-Maritime",
+      "chefLieu": "La Rochelle",
+      "region": "Nouvelle-Aquitaine",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 18,
+      "type": "DPT",
+      "nom": "Cher",
+      "chefLieu": "Bourges",
+      "region": "Centre-Val de Loire",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 19,
+      "type": "DPT",
+      "nom": "Corrèze",
+      "chefLieu": "Tulle",
+      "region": "Nouvelle-Aquitaine",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": "2A",
+      "type": "DPT",
+      "nom": "Corse-du-Sud",
+      "chefLieu": "Ajaccio",
+      "region": "Corse",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": "2B",
+      "type": "DPT",
+      "nom": "Haute-Corse",
+      "chefLieu": "Bastia",
+      "region": "Corse",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 21,
+      "type": "DPT",
+      "nom": "Côte-d'Or",
+      "chefLieu": "Dijon",
+      "region": "Bourgogne-Franche-Comté",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 22,
+      "type": "DPT",
+      "nom": "Côtes d'Armor",
+      "chefLieu": "Saint-Brieuc",
+      "region": "Bretagne",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 23,
+      "type": "DPT",
+      "nom": "Creuse",
+      "chefLieu": "Guéret",
+      "region": "Nouvelle-Aquitaine",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 24,
+      "type": "DPT",
+      "nom": "Dordogne",
+      "chefLieu": "Périgueux",
+      "region": "Nouvelle-Aquitaine",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 25,
+      "type": "DPT",
+      "nom": "Doubs",
+      "chefLieu": "Besançon",
+      "region": "Bourgogne-Franche-Comté",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 26,
+      "type": "DPT",
+      "nom": "Drôme",
+      "chefLieu": "Valence",
+      "region": "Auvergne-Rhône-Alpes",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 27,
+      "type": "DPT",
+      "nom": "Eure",
+      "chefLieu": "Évreux",
+      "region": "Normandie",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 28,
+      "type": "DPT",
+      "nom": "Eure-et-Loir",
+      "chefLieu": "Chartres",
+      "region": "Centre-Val de Loire",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 29,
+      "type": "DPT",
+      "nom": "Finistère",
+      "chefLieu": "Quimper",
+      "region": "Bretagne",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 30,
+      "type": "DPT",
+      "nom": "Gard",
+      "chefLieu": "Nîmes",
+      "region": "Occitanie",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 31,
+      "type": "DPT",
+      "nom": "Haute-Garonne",
+      "chefLieu": "Toulouse",
+      "region": "Occitanie",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 32,
+      "type": "DPT",
+      "nom": "Gers",
+      "chefLieu": "Auch",
+      "region": "Occitanie",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 33,
+      "type": "DPT",
+      "nom": "Gironde",
+      "chefLieu": "Bordeaux",
+      "region": "Nouvelle-Aquitaine",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 34,
+      "type": "DPT",
+      "nom": "Hérault",
+      "chefLieu": "Montpellier",
+      "region": "Occitanie",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 35,
+      "type": "DPT",
+      "nom": "Ille-et-Vilaine",
+      "chefLieu": "Rennes",
+      "region": "Bretagne",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 36,
+      "type": "DPT",
+      "nom": "Indre",
+      "chefLieu": "Châteauroux",
+      "region": "Centre-Val de Loire",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 37,
+      "type": "DPT",
+      "nom": "Indre-et-Loire",
+      "chefLieu": "Tours",
+      "region": "Centre-Val de Loire",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 38,
+      "type": "DPT",
+      "nom": "Isère",
+      "chefLieu": "Grenoble",
+      "region": "Auvergne-Rhône-Alpes",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 39,
+      "type": "DPT",
+      "nom": "Jura",
+      "chefLieu": "Lons-le-Saunier",
+      "region": "Bourgogne-Franche-Comté",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 40,
+      "type": "DPT",
+      "nom": "Landes",
+      "chefLieu": "Mont-de-Marsan",
+      "region": "Nouvelle-Aquitaine",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 41,
+      "type": "DPT",
+      "nom": "Loir-et-Cher",
+      "chefLieu": "Blois",
+      "region": "Centre-Val de Loire",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 42,
+      "type": "DPT",
+      "nom": "Loire",
+      "chefLieu": "Saint-Étienne",
+      "region": "Auvergne-Rhône-Alpes",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 43,
+      "type": "DPT",
+      "nom": "Haute-Loire",
+      "chefLieu": "Le Puy-en-Velay",
+      "region": "Auvergne-Rhône-Alpes",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 44,
+      "type": "DPT",
+      "nom": "Loire-Atlantique",
+      "chefLieu": "Nantes",
+      "region": "Pays de la Loire",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 45,
+      "type": "DPT",
+      "nom": "Loiret",
+      "chefLieu": "Orléans",
+      "region": "Centre-Val de Loire",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 46,
+      "type": "DPT",
+      "nom": "Lot",
+      "chefLieu": "Cahors",
+      "region": "Occitanie",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 47,
+      "type": "DPT",
+      "nom": "Lot-et-Garonne",
+      "chefLieu": "Agen",
+      "region": "Nouvelle-Aquitaine",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 48,
+      "type": "DPT",
+      "nom": "Lozère",
+      "chefLieu": "Mende",
+      "region": "Occitanie",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 49,
+      "type": "DPT",
+      "nom": "Maine-et-Loire",
+      "chefLieu": "Angers",
+      "region": "Pays de la Loire",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 50,
+      "type": "DPT",
+      "nom": "Manche",
+      "chefLieu": "Saint-Lô",
+      "region": "Normandie",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 51,
+      "type": "DPT",
+      "nom": "Marne",
+      "chefLieu": "Châlons-en-Champagne",
+      "region": "Grand Est",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 52,
+      "type": "DPT",
+      "nom": "Haute-Marne",
+      "chefLieu": "Chaumont",
+      "region": "Grand Est",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 53,
+      "type": "DPT",
+      "nom": "Mayenne",
+      "chefLieu": "Laval",
+      "region": "Pays de la Loire",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 54,
+      "type": "DPT",
+      "nom": "Meurthe-et-Moselle",
+      "chefLieu": "Nancy",
+      "region": "Grand Est",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 55,
+      "type": "DPT",
+      "nom": "Meuse",
+      "chefLieu": "Bar-le-Duc",
+      "region": "Grand Est",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 56,
+      "type": "DPT",
+      "nom": "Morbihan",
+      "chefLieu": "Vannes",
+      "region": "Bretagne",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 57,
+      "type": "DPT",
+      "nom": "Moselle",
+      "chefLieu": "Metz",
+      "region": "Grand Est",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 58,
+      "type": "DPT",
+      "nom": "Nièvre",
+      "chefLieu": "Nevers",
+      "region": "Bourgogne-Franche-Comté",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 59,
+      "type": "DPT",
+      "nom": "Nord",
+      "chefLieu": "Lille",
+      "region": "Hauts-de-France",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 60,
+      "type": "DPT",
+      "nom": "Oise",
+      "chefLieu": "Beauvais",
+      "region": "Hauts-de-France",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 61,
+      "type": "DPT",
+      "nom": "Orne",
+      "chefLieu": "Alençon",
+      "region": "Normandie",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 62,
+      "type": "DPT",
+      "nom": "Pas-de-Calais",
+      "chefLieu": "Arras",
+      "region": "Hauts-de-France",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 63,
+      "type": "DPT",
+      "nom": "Puy-de-Dôme",
+      "chefLieu": "Clermont-Ferrand",
+      "region": "Auvergne-Rhône-Alpes",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 64,
+      "type": "DPT",
+      "nom": "Pyrénées-Atlantiques",
+      "chefLieu": "Pau",
+      "region": "Nouvelle-Aquitaine",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 65,
+      "type": "DPT",
+      "nom": "Hautes-Pyrénées",
+      "chefLieu": "Tarbes",
+      "region": "Occitanie",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 66,
+      "type": "DPT",
+      "nom": "Pyrénées-Orientales",
+      "chefLieu": "Perpignan",
+      "region": "Occitanie",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 67,
+      "type": "DPT",
+      "nom": "Bas-Rhin",
+      "chefLieu": "Strasbourg",
+      "region": "Grand Est",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 68,
+      "type": "DPT",
+      "nom": "Haut-Rhin",
+      "chefLieu": "Colmar",
+      "region": "Grand Est",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 69,
+      "type": "DPT",
+      "nom": "Rhône",
+      "chefLieu": "Lyon",
+      "region": "Auvergne-Rhône-Alpes",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 70,
+      "type": "DPT",
+      "nom": "Haute-Saône",
+      "chefLieu": "Vesoul",
+      "region": "Bourgogne-Franche-Comté",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 71,
+      "type": "DPT",
+      "nom": "Saône-et-Loire",
+      "chefLieu": "Mâcon",
+      "region": "Bourgogne-Franche-Comté",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 72,
+      "type": "DPT",
+      "nom": "Sarthe",
+      "chefLieu": "Le Mans",
+      "region": "Pays de la Loire",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 73,
+      "type": "DPT",
+      "nom": "Savoie",
+      "chefLieu": "Chambéry",
+      "region": "Auvergne-Rhône-Alpes",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 74,
+      "type": "DPT",
+      "nom": "Haute-Savoie",
+      "chefLieu": "Annecy",
+      "region": "Auvergne-Rhône-Alpes",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 75,
+      "type": "DPT",
+      "nom": "Paris",
+      "chefLieu": "Paris",
+      "region": "Ile-de-France",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 76,
+      "type": "DPT",
+      "nom": "Seine-Maritime",
+      "chefLieu": "Rouen",
+      "region": "Normandie",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 77,
+      "type": "DPT",
+      "nom": "Seine-et-Marne",
+      "chefLieu": "Melun",
+      "region": "Ile-de-France",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 78,
+      "type": "DPT",
+      "nom": "Yvelines",
+      "chefLieu": "Versailles",
+      "region": "Ile-de-France",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 79,
+      "type": "DPT",
+      "nom": "Deux-Sèvres",
+      "chefLieu": "Niort",
+      "region": "Nouvelle-Aquitaine",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 80,
+      "type": "DPT",
+      "nom": "Somme",
+      "chefLieu": "Amiens",
+      "region": "Hauts-de-France",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 81,
+      "type": "DPT",
+      "nom": "Tarn",
+      "chefLieu": "Albi",
+      "region": "Occitanie",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 82,
+      "type": "DPT",
+      "nom": "Tarn-et-Garonne",
+      "chefLieu": "Montauban",
+      "region": "Occitanie",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 83,
+      "type": "DPT",
+      "nom": "Var",
+      "chefLieu": "Toulon",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 84,
+      "type": "DPT",
+      "nom": "Vaucluse",
+      "chefLieu": "Avignon",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 85,
+      "type": "DPT",
+      "nom": "Vendée",
+      "chefLieu": "La Roche-sur-Yon",
+      "region": "Pays de la Loire",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 86,
+      "type": "DPT",
+      "nom": "Vienne",
+      "chefLieu": "Poitiers",
+      "region": "Nouvelle-Aquitaine",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 87,
+      "type": "DPT",
+      "nom": "Haute-Vienne",
+      "chefLieu": "Limoges",
+      "region": "Nouvelle-Aquitaine",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 88,
+      "type": "DPT",
+      "nom": "Vosges",
+      "chefLieu": "Épinal",
+      "region": "Grand Est",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 89,
+      "type": "DPT",
+      "nom": "Yonne",
+      "chefLieu": "Auxerre",
+      "region": "Bourgogne-Franche-Comté",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 90,
+      "type": "DPT",
+      "nom": "Territoire-de-Belfort",
+      "chefLieu": "Belfort",
+      "region": "Bourgogne-Franche-Comté",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 91,
+      "type": "DPT",
+      "nom": "Essonne",
+      "chefLieu": "Évry",
+      "region": "Ile-de-France",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 92,
+      "type": "DPT",
+      "nom": "Hauts-de-Seine",
+      "chefLieu": "Nanterre",
+      "region": "Ile-de-France",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 93,
+      "type": "DPT",
+      "nom": "Seine-Saint-Denis",
+      "chefLieu": "Bobigny",
+      "region": "Ile-de-France",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 94,
+      "type": "DPT",
+      "nom": "Val-de-Marne",
+      "chefLieu": "Créteil",
+      "region": "Ile-de-France",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 95,
+      "type": "DPT",
+      "nom": "Val-D'Oise",
+      "chefLieu": "Pontoise",
+      "region": "Ile-de-France",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 971,
+      "type": "DOM",
+      "nom": "Guadeloupe",
+      "chefLieu": "Basse-Terre",
+      "region": "Guadeloupe",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 972,
+      "type": "DOM",
+      "nom": "Martinique",
+      "chefLieu": "Fort-de-France",
+      "region": "Martinique",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 973,
+      "type": "DOM",
+      "nom": "Guyane",
+      "chefLieu": "Cayenne",
+      "region": "Guyane",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 974,
+      "type": "DOM",
+      "nom": "La Réunion",
+      "chefLieu": "Saint-Denis",
+      "region": "La Réunion",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 976,
+      "type": "DOM",
+      "nom": "Mayotte",
+      "chefLieu": "Mamoudzou",
+      "region": "Mayotte",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 975,
+      "type": "COM",
+      "nom": "Saint-Pierre-et-Miquelon",
+      "chefLieu": "Saint-Pierre",
+      "region": "",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 977,
+      "type": "COM",
+      "nom": "Saint-Barthélémy",
+      "chefLieu": "Gustavia",
+      "region": "",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 978,
+      "type": "COM",
+      "nom": "Saint-Martin",
+      "chefLieu": "Marigot",
+      "region": "",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 987,
+      "type": "COM",
+      "nom": "Polynésie française",
+      "chefLieu": "Papeete",
+      "region": "",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 989,
+      "type": "COM",
+      "nom": "Île de Clipperton",
+      "chefLieu": "Clipperton",
+      "region": "",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 986,
+      "type": "PTOM",
+      "nom": "Wallis-et-Futuna",
+      "chefLieu": "Mata Utu",
+      "region": "",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 988,
+      "type": "PTOM",
+      "nom": "Nouvelle-Calédonie",
+      "chefLieu": "Nouméa",
+      "region": "",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    },
+    {
+      "code": 984,
+      "type": "TOM",
+      "nom": "Terres australes et antarctiques françaises",
+      "chefLieu": "",
+      "region": "",
+      "debutValidite": "22/03/20",
+      "finValidite": ""
+    }
+  ]
