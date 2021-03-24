@@ -14,7 +14,10 @@ class _DonationPageState extends State<DonationPage> {
   //Variables pour le prix de revient du donateur
   double trueCost = 0;
   // variable dropdown
-  String dropdownValue = 'One';
+  int _valueDropDown1 = 1;
+  int _valueDropDown2 = 1;
+
+
 
   // radio button sélectionné de base
   paymentType radioSelectedValue = paymentType.unique;
@@ -75,12 +78,106 @@ class _DonationPageState extends State<DonationPage> {
                           SizedBox(
                             height: 18,
                           ),
-                          //TODO : dropdown pour le choix du don département/HA/refuges
+                          //dropdown pour le choix du don département/HA/refuges
+                          Column(
+                            children: [
+                              Text('A qui sera redistibué votre don ?'),
+                            DropdownButton(
+                                value: _valueDropDown1,
+                                items: [
+                                  DropdownMenuItem(
+                                    child: Text("Happy Animal"),
+                                    value: 1,
+                                  ),
+                                  DropdownMenuItem(
+                                    child: Text("Département"),
+                                    value: 2,
+                                  ),
+                                  DropdownMenuItem(
+                                      child: Text("Un refuge particulier"),
+                                      value: 3
+                                  ),
+                                  DropdownMenuItem(
+                                      child: Text("Aux refuges qui en ont le plus besoin"),
+                                      value: 4
+                                  )
+                                ],
+                                onChanged: (value) {
+                                  setState(() {
+                                    _valueDropDown1 = value;
+                                  });
+                                }),
+                            ]
+                          ),
 
 
+                          if (_valueDropDown1==1)
+                                Text('Merci de donner à HA'),
+                          if (_valueDropDown1==4)
+                            Text('Merci de donner aux refuges panades'),
+                          if (_valueDropDown1==2)
+                            Column(
+                              children: [
+                                Text('A quel département souhaitez vous donner ?'),
+                                //TODO : rechercher les départements dans la bdd et les mettre dans la dropdown
+                                DropdownButton(
+                                  value: _valueDropDown2,
+                                  items: [
+                                    DropdownMenuItem(
+                                      child: Text("Test1"),
+                                      value: 1,
+                                    ),
+                                    DropdownMenuItem(
+                                      child: Text("Test2"),
+                                      value: 2,
+                                    ),
+                                    DropdownMenuItem(
+                                      child: Text("Test 3"),
+                                      value: 3
+                                    ),
+                                    DropdownMenuItem(
+                                      child: Text("Test4"),
+                                      value: 4
+                                    )
+                                  ],
+                                  onChanged: (value) {
+                                  setState(() {
+                                  _valueDropDown2 = value;
+                                  });
+                                }),
+                              ]),
 
-                          //TODO : en fonction du choix d'au dessus un dropdown apparait avec la liste de la bdd
-
+                          if (_valueDropDown1==3)
+                            Column(
+                                children: [
+                                  Text('A quel refuge en particulier souhaitez vous donner ?'),
+                                  //TODO : rechercher les refuges dans la bdd et les mettre dans la dropdown
+                                  DropdownButton(
+                                      value: _valueDropDown2,
+                                      items: [
+                                        DropdownMenuItem(
+                                          child: Text("Test1"),
+                                          value: 1,
+                                        ),
+                                        DropdownMenuItem(
+                                          child: Text("Test2"),
+                                          value: 2,
+                                        ),
+                                        DropdownMenuItem(
+                                            child: Text("Test 3"),
+                                            value: 3
+                                        ),
+                                        DropdownMenuItem(
+                                            child: Text("Test4"),
+                                            value: 4
+                                        )
+                                      ],
+                                      onChanged: (value) {
+                                        setState(() {
+                                          _valueDropDown2 = value;
+                                        });
+                                      }),
+                                ]),
 
                           //montant des dons. On ne peut entrer que des chiffres
                           TextFormField(
