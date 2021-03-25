@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:happyanimal_app/ui_elements/shelter_item.dart';
+import 'package:happyanimal_app/ui_elements/home_element_item.dart';
 
 class AnimalsList extends StatelessWidget {
   final String collectionName;

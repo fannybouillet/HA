@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:happyanimal_app/ui_elements/shelter_item.dart';
+import 'package:happyanimal_app/ui_elements/home_element_item.dart';
 
 import 'screens/shelter_detail.dart';
 
@@ -11,7 +11,7 @@ class SheltersList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    CollectionReference shelters = FirebaseFirestore.instance.collection('shelters');
+    CollectionReference shelters = FirebaseFirestore.instance.collection('shelters') ;
 
     return StreamBuilder<QuerySnapshot>(
       stream: shelters.snapshots(),
@@ -45,7 +45,7 @@ class SheltersList extends StatelessWidget {
                           '/shelter/detail',
                           arguments: ShelterDetailArguments(e.id)
                       ),
-                      secondaryText: "${e.get('city')} ${e.get('adress')}",
+                      secondaryText: "${e.get('city')} ${e.get('zipcode')}",
                     );
                   }).toList()
               );
@@ -59,14 +59,3 @@ class SheltersList extends StatelessWidget {
 
   }
 }
-
-/**
-    ShelterItem(
-    image:  Image.network(document.data()['image'],
-    fit:BoxFit.cover,
-    width: 200,
-    ),
-    name: document.data()['name'],
-    buttonAction: () { Navigator.pushNamed(context, '/donation'); }
-    ),
-    **/

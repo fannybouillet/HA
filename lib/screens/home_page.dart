@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:happyanimal_app/alerts_list.dart';
 import 'package:happyanimal_app/animals_list.dart';
 import 'package:happyanimal_app/shelters_list.dart';
-import 'package:happyanimal_app/alerts_list.dart';
 import 'package:happyanimal_app/theme.dart';
 
 
@@ -41,11 +40,12 @@ class _HomePageState extends State<HomePage> {
                 //contributions du jour
                 HomeSectionTitle(title: 'Contributions du jour', icon: Icons.today,),
                 HomeTodayContribution(),
-                Divider(),
+                Divider(height: 30),
                 //faire un don
                 HomeSectionTitle(title: 'Faire un don', icon: Icons.play_arrow,),
+                SizedBox(height: 8,),
                 HomeVideo(),
-                Divider(),
+                Divider(height: 30),
                 //Les refuges
                 HomeSectionTitle(title: 'Les refuges', icon: Icons.home,),
                 Container(
@@ -57,9 +57,9 @@ class _HomePageState extends State<HomePage> {
                     child: Text('Voir tous les refuges'),
                     color: kHaBlueLight,
                     onPressed: () {
-                      Navigator.pushNamed(context, '/listRefuge');
+                      Navigator.pushNamed(context, '/list_shelters');
                     }),
-
+                Divider(height: 30),
                 HomeSectionTitle(title: 'Les animaux', icon: Icons.pets,),
                 Container(
                     height: 300,
@@ -70,6 +70,7 @@ class _HomePageState extends State<HomePage> {
                     color: kHaBlueLight,
                   onPressed: null
                 ),
+                Divider(height: 30),
                 //Les alertes
                 //TODO contenir les alertes dans une carte de 200de large
                 HomeSectionTitle(title: 'Les alertes', icon: Icons.warning,),
@@ -91,9 +92,6 @@ class _HomePageState extends State<HomePage> {
   }
 }
 
-//Todo: mettre dans des fichiers différents
-
-//Todo: Mettre les arguments
 // factorisation des titres
 class HomeSectionTitle extends StatelessWidget {
   final IconData icon;
@@ -114,6 +112,7 @@ class HomeSectionTitle extends StatelessWidget {
         Text(title,
           style: Theme.of(context).textTheme.headline4,
         ),
+        SizedBox(height: 12,)
       ],
     );
   }
@@ -180,7 +179,7 @@ class HomeTodayContribution extends StatelessWidget {
     );
   }
 }
-
+//section vidéo
 class HomeVideo extends StatefulWidget {
   @override
   _HomeVideoState createState() => _HomeVideoState();
@@ -194,13 +193,16 @@ class _HomeVideoState extends State<HomeVideo> {
         Text('Apportez 1 repas simplement en regardant une vidéo'),
         //sVgX1j6E0Bo
     //TODO : insérer une vidéo
-        Image.network(
-          'https://www.sortiraparis.com/images/80/62403/420603-paris-animal-show-2019-a-la-porte-de-versailles.jpg',
-          width: 200,
-        ),
-        Text('Explication du concept, de ce qu apporte de regarder une vidéo'),
         SizedBox(height: 8,),
-        Text("Si vous n'avez pas le temps de regarder une vidéo"),
+        Image.network(
+          'https://www.30millionsdamis.fr/uploads/pics/hericourt-sauvetage-chat-grille-1171-player.jpg',
+          width: 400,
+        ),
+        SizedBox(height: 8,),
+        Text( "Faites un micro-don sans toucher à votre porte-monnaie ! Regardez et cliquez sur la vidéo : le publicitaire nous rémunèrera quelques centimes, que nous reverserons en majorité aux refuges les plus dans le besoin."),
+        SizedBox(height: 12,),
+        Text("Si vous n'avez pas le temps de regarder une vidéo :"),
+        SizedBox(height: 8,),
         MaterialButton(
           child: Text('Faites un don monétaire'),
           color: kHaBlueLight,

@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:happyanimal_app/ui_elements/shelter_item.dart';
+import 'package:happyanimal_app/ui_elements/home_element_item.dart';
 
 class AlertsList extends StatelessWidget {
   final String collectionName;
@@ -35,12 +35,12 @@ class AlertsList extends StatelessWidget {
                 children: snapshot.data.docs.map((e) {
                   return HomeElementItem(
                     image: Image.network(e.get('image'),
-                      width: 200,
-                      height: 200,
+                      width: 100,
+                      height: 100,
                       fit: BoxFit.cover,),
-                    name: e.get('name'),
+                    name: e.get('name').substring(0,13)+"...",
                     buttonAction: () => Navigator.pushNamed(context, '/donation'),
-                    secondaryText: e.get('description')
+                    secondaryText: e.get('description').substring(0,100)+"..."
                   );
                 }).toList()
             );

@@ -28,9 +28,12 @@ class ShelterDetail extends StatelessWidget {
                 title:Text(snapshot.data.get('name'))),
             body: Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
+
+              child:
+                ListView(
+                  // This next line does the trick.
+                    scrollDirection: Axis.vertical,
+                                      children: [
                   Text(snapshot.data.get('name'),
                     style: Theme.of(context).textTheme.headline6,),
                   SizedBox(height: 8,),
@@ -39,10 +42,40 @@ class ShelterDetail extends StatelessWidget {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.all(Radius.circular(5))
                       ),
-                      child: Image.network(snapshot.data.get('image'))),
+                      child: Image.network(snapshot.data.get('image')),height: 300,),
                   SizedBox(height: 8,),
+                  Text('Notre refuge'),
                   Text(snapshot.data.get('description'),
-                    style: Theme.of(context).textTheme.caption,)
+                    style: Theme.of(context).textTheme.caption,),
+                  SizedBox(height: 8,),
+                  Text('Conditions de visite'),
+                  Text(snapshot.data.get('conditionVisit'),
+                    style: Theme.of(context).textTheme.caption,),
+                  SizedBox(height: 8,),
+                  Text('Notre adresse'),
+                  Text(snapshot.data.get('name'),
+                    style: Theme.of(context).textTheme.caption,),
+                  Text(snapshot.data.get('adress'),
+                    style: Theme.of(context).textTheme.caption,),
+                  Row(
+                    children: [
+                      Text(snapshot.data.get('zipcode'),
+                        style: Theme.of(context).textTheme.caption,),
+                      SizedBox(width: 2),
+                      Text(snapshot.data.get('city'),
+                        style: Theme.of(context).textTheme.caption,),
+                    ],
+                  ),
+
+                  SizedBox(height: 8,),
+                  Text('Pour nous contacter'),
+                  Text(snapshot.data.get('phone'),
+                    style: Theme.of(context).textTheme.caption,),
+                  Text(snapshot.data.get('mail'),
+                    style: Theme.of(context).textTheme.caption,),
+
+
+
                 ],
               ),
             ),

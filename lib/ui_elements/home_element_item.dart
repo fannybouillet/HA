@@ -36,8 +36,12 @@ class HomeElementItem extends StatelessWidget {
                         ),
                         child: image),
                     SizedBox(height: 8,),
-                    Text(secondaryText,
-                    style: Theme.of(context).textTheme.subtitle1,)
+                    Container(
+                      width: 200,
+                      child:
+                        Text(secondaryText,
+                          style: Theme.of(context).textTheme.subtitle1,)
+                    )
                   ],
                 ),
               ),

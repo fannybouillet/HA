@@ -16,7 +16,8 @@ var happyAnimalsThemeData = ThemeData(
         fontSize: 18,
         fontWeight: FontWeight.bold,
         color: kHaBrown
-      )
+      ),
+
     )
 );
 
