@@ -1,6 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
+import '../theme.dart';
+
 class ShelterDetailArguments {
   final String documentId;
 
@@ -43,6 +45,22 @@ class ShelterDetail extends StatelessWidget {
                           borderRadius: BorderRadius.all(Radius.circular(5))
                       ),
                       child: Image.network(snapshot.data.get('image')),height: 300,),
+                 Row(
+                   children: [
+                     MaterialButton(
+                         child: Text('Certifier le refuge'),
+                         color: kHaBlueLight,
+                         onPressed: null
+                     ),
+                     MaterialButton(
+                         child: Text('Faire un don à ce refuge'),
+                         color: kHaBlueLight,
+                        onPressed: () {
+                         Navigator.pushNamed(context, '/donation');
+                       },
+                     ),
+                   ],
+                 ),
                   SizedBox(height: 8,),
                   Text('Notre refuge'),
                   Text(snapshot.data.get('description'),
